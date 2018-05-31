@@ -5,4 +5,4 @@ const allReducers = combineReducers({
 	cars: CarsReducers
 });
 
-export default allReducers
+export default allReducers 

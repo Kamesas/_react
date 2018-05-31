@@ -1,12 +1,17 @@
+import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from "react-dom";
+import {Provider} from 'react-redux';
 import {createStore} from 'redux';
-import allReducers from './reducers'
+import allReducers from './reducers';
+import WebPage from './components/WebPage';
 //npm run start
 
-const store = createStore();
+const store = createStore(allReducers);
 
 ReactDOM.render(
-  <button className="ui primary button">Save </button>, 
+	<Provider store={store}>
+	  <WebPage />
+	</Provider>, 
   document.getElementById('fieldToShow')
 );
