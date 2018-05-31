@@ -2,7 +2,7 @@ export default function () {
 	return [
 		{
 			id: 1,
-			car: "Audi",
+			name: "Audi",  
 			speed: 234.45,
 			weight: 1.4,
 			desc: "R8 это замечательный спортивный автомобиль!",
@@ -10,7 +10,7 @@ export default function () {
 		},
 		{
 			id: 2,
-			car: "BMW",
+			name: "BMW",
 			speed: 256.4,
 			weight: 2.4,
 			desc: "BMW это замечательный спортивный автомобиль!",
@@ -18,7 +18,7 @@ export default function () {
 		},
 		{
 			id: 3,
-			car: "Nissan",
+			name: "Nissan",
 			speed: 200.23,
 			weight: 1.6,
 			desc: "Nissan это замечательный спортивный автомобиль!",
