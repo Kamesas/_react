@@ -1,5 +1,6 @@
 import React from 'react';
 import CarsList from '../containers/cars-list';
+import Details from '../containers/details';
 //import '../../../src/css/semantic.min.css'
 
 const WebPage = () => (
@@ -9,6 +10,7 @@ const WebPage = () => (
 		<CarsList />
 		<hr />
 		<h3>Details: </h3>
+		<Details />
 	</div>
 
 );
